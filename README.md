@@ -1,9 +1,9 @@
 
-#Meus códigos de estudo
+# Meus códigos de estudo
 
 Códigos desenvolvidos durante meus estudos de programação Web.
 
-##Pastas
+## Pastas
 
 **exercicios_curso_JS:** Exercícios que desenvolvi no curso de Java Script do Curso em Vídeo (Patrocinado pelo Google).
 **exercicios_pessoais:** Exercícos desenvolvidos por idéis próprias, marjoritariamente relacionados a matemática.
