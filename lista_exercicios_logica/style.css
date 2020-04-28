@@ -7,3 +7,15 @@ body {
     text-shadow: 2px 2px 2px black;
 
 }
+
+a:link {
+    color: white;
+  }
+  
+a:visited {
+    color: rgb(178, 243, 243);
+  }
+  
+a:hover {
+    color: rgb(245, 255, 105);
+  }
