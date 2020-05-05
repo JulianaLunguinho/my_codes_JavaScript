@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cálculo da Média</title>
+    <script src="scrip.js"></script>
+    <link href="../style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>Calcule sua média</h1>
+
+        <p>Escreva sua nota de peso 2:
+            <input type="number" name="nota2" id="n2" min="0" max="10" maxlength="2">
+        </p>
+
+        <p>Escreva sua nota de peso 3:
+            <input type="number" name="nota3" id="n3" min="0" max="10" maxlength="2">
+        </p>
+
+        <p>Escreva sua nota de peso 5:
+            <input type="number" name="nota5" id="n5" min="0" max="10" maxlength="2">
+        </p>
+
+        <p>
+            <input type="button" value="Calcular média" onclick="calcularMedia()">
+        </p>
+    </div>
+    <div id="res">
+
+    </div>
+
+</body>
+
+</html>
