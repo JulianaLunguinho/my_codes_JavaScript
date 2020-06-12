@@ -59,8 +59,8 @@ function converterOutraBase() {
     let base = Number((document.getElementById("bs1")).value)
     let resposta = [];
 
-    if (base > 10 || base < 2) {
-        res.innerHTML = "ERRO! Use bases entre 2 e 9!"
+    if (base > 16 || base < 2) {
+        res.innerHTML = "ERRO! Use bases entre 2 e 16!"
         return;
     }
 
@@ -72,7 +72,31 @@ function converterOutraBase() {
     }
     resposta.unshift(numero);
 
+    for(let i = 0; i < resposta.length; i++) {
+        let number = Number(resposta[i]);
+        switch (number) {
+            case 10:
+                resposta[i] = "A"
+                break;
+            case 11:
+                resposta[i] = "B"
+                break;
+            case 12:
+                resposta[i] = "C"
+                break;
+            case 13:
+                resposta[i] = "D"
+                break;
+            case 14:
+                resposta[i] = "E"
+                break;
+            case 15:
+                resposta[i] = "F"
+                break;
+        }       
+    }
+
     let resultado = resposta.join('');
 
-    res.innerHTML = `O número ${num} em base ${base} é igual a ${resultado}.`;
+    res.innerHTML = `O número ${num} em base ${base} é igual a ${resultado}.`
 }
