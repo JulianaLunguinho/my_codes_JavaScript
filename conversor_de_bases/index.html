@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Bases</title>
+    <link rel="stylesheet" href="../lista_exercicios_logica/style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div>
+        <h2>De decimal para outra base</h2>
+        <p>
+            Converter o número decimal
+            <input type="text" name="numero1" id="num1">
+            para a base
+            <input type="number" name="base1" id="bs1">
+            <input type="button" value="Converter" onclick="converterOutraBase()"> <br/>
+            OBS: Não use bases maiores que 9.
+        </p>
+
+        <h2>De outra base para decimal</h2>
+        <p>Converter o número
+            <input type="text" name="numero2" id="num2">
+            da base
+            <input type="number" name="base2" id="bs2">
+            para a base decimal
+            <input type="button" value="Converter" onclick="converterParaDecimal()"> <br/>
+            OBS: Não use bases maiores que 16.
+        </p>
+    </div>
+    <div id="res">
+
+    </div>
+</body>
+</html>
