@@ -2,7 +2,7 @@
 # Meus códigos de estudo
 
 Códigos desenvolvidos durante meus estudos de programação Web.
-link: https://julianalunguinho.github.io/MyCodes/
+link: https://julianalunguinho.github.io/my_codes_JavaScript/
 
 ## Pastas
 
